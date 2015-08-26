@@ -1,0 +1,20 @@
+1@Which two kinds of expansion can be identified?_________@a) Lexical expansion & Semantic expansion@b) Lexical expansion & syntax expansion@c) Syntax expansion &semantic expansion@d) None of above@1
+2@Use of macro name in mnemonic field of an assembly statement leads to_________ @a) Execution@b) Expansion@c) Linking@d) All of above@2
+3@Use of subroutine name in call instruction leads to_________ @a) Execution@b) Expansion@c) Linking@d) All of above@1
+4@Macro definition are typically located at _________ @a) Start of program @b) End of program@c) Mid of program@d) None of these@1
+5@Macro definition is enclosed _________ @a) between Macro header statement & macro end @b) In main program @c) In other function@d) None of these@1
+6@A macro definition consist of _________ @a) A macro prototype statement@b) One or more model statement @c) Macro pre-processor statement@d) All of above@4
+7@A pre-processor statement is used _________ @a) To generate assembly language statement during macro expansion@b) One or more model statement @c) Both a & b@d) None of above@2
+8@Model statement is used _________ @a) To generate assembly language statement during macro expansion@b) To perform auxiliary function during macro expansion@c) Both a & b @d) None of above@1
+9@Default flow of control during macro expansion is_________ @a) Sequential@b) Random@c) Alternative@d) None of above@1
+10@Macro prototype statement declare_________ @a) Name of macro@b) Name of Macro & kind of its parameter@c) Both a &b@d) None of above@3
+11@The macro call has syntax_________ @a) <macro name >[ <actual parameter spec>[,..]]@b) <macro name >[ <formal  parameter spec>[,..]]@c) <macro name >[ <actual parameter spec>]@d) None of above@1
+12@The macro prototype statement has syntax_________ @a) <macro name >[ <actual parameter spec>[,..]]@b) <macro name >[ <formal  parameter spec>[,..]]@c) <macro name >[ <actual parameter spec>]@d) None of above@2
+13@Lexical substitution is used_________ @a) To generate assembly language statement during macro expansion@b) To perform auxiliary function during macro expansion@c) Both a & b @d) None of above@1
+14@Model statement consists of _________ @a) An ordinary string which stand for it self @b) The name of formal parameter which is preceded by the character ‘&@c) The name of pre-processor variable which is also preceded by the character ‘&’@d) All of above@4
+15@Which of the following are not different of parameter for determining the value of formal parameter _________ @a) Positional parameter @b) Keyword parameter&@c) Default specification @d) Actual parameter@4
+16@In which kind of parameter kind <parameter kind> is omitted_________ @a) Positional@b) Keyword@c) Default specification of parameter@d) Other use of parameters@2
+17@The<actual parameter> in case of keyword  parameter is written as_________ @a) <formal parameter name> =<ordinary string>@b) <formal parameter name> @c) <ordinary string>@d) None of these@1
+18@The syntax of  formal parameter in case of default specification of parameter is_________ @a) &<parameter name>[<parameter kind >[ <default value>]]@b) <parameter name>[<parameter kind >[ <default value>]]@c) &<parameter name>[<parameter kind >]@d) <parameter name>[ <default value>]@1
+19@A model statement is a statement from which a/an __________ language  statement may be generated during micro expansion@a) machine@b) assembly@c) target @d) None of these@2
+20@A macro prototype statement consist of __________@a) Actual parameter@b) formal parameters@c) model statement@d) None of these@2

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/front"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="3" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <ImageView
+            android:id="@+id/imgnotes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/notes" 
+            android:onClick="onclick"/>
+
+        <ImageView
+            android:id="@+id/imgppt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ppt"
+             android:onClick="onclick" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imggames"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/games" 
+         android:onClick="onclick"/>
+  <LinearLayout
+        android:layout_width="match_parent"
+       android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <ImageView
+            android:id="@+id/imgquiz"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/quiz"
+             android:onClick="onclick" />
+
+        <ImageView
+            android:id="@+id/imgqbank"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/qbank"
+             android:onClick="onclick" />
+    </LinearLayout>
+</LinearLayout>

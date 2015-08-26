@@ -1,0 +1,66 @@
+1@ Semantic gap is the gap between_________@a) Application domain & Execution domain@b) Application & PL domain & Execution domain@c) PL & Execution domain@d) None of above@1
+2@ consequences of semantic gap are_________@a) Large development time@b) Large development effort@c) Poor quality of software@d) All of above@4
+3@ Software implementation using PL introduces a new domain called________@a) Application domain@b) PL domain@c) Execution domain@d) Program generator domain@2
+4@ Specification gap is gap between_________@a) Application domain & Execution domain @b)Application & PL domain@c) PL & Execution domain@d) None of above@2
+5@ Specification gap is bridge by________@a) Software development team@b) Designer of program language processor@c) Programmer@d) All above@1
+6@ Execution gap is the gap between________@a) Application domain & Execution domain@b) Application & PL domain@c) PL & Execution domain@d) None of above@3
+7@ Execution gap is bridged by________@a) Software development team@b) Designer of program language processor@c) Programmer@d) All above@2
+8@The Specification language of execution domain is_________@a) PL itself@b) Machine language@c) Assembly language@d) None of  above@1
+9@ Specification language of PL domain is_________@a) PL itself@b) Machine language@c) Assembly language@d) None of  above@2
+10@ Language translator bridges __________@a) Specification gap@b) Semantic gap@c) Execution gap@d) None of above@3
+11@ Dtranslator bridges _________@a) Specification gap@b) Semantic gap@c) Execution gap@d) None of above@3
+12@ Language Migrator Bridges _________@a) Specification gap@b) Semantic gap@c) Execution gap@d) None of above@1
+13@The language processor converts C++ program in to ________@a) Assembly language@b) ‘C’ language@c) Machine language@d) ‘C++’ language@2
+14@ The language translator converts C++ program in to ________@a) Assembly language@b) ‘C’ language@c) Machine language@d) ‘C++’ language@3
+15@ Interpreter bridges _________@a) Specification gap@b) Semantic gap@c) Execution gap@d) None of above@3
+16@ Which of the following statement TRUE?@a) Interpreter bridges execution gap without generating a machine language Programming@b) Interpreter bridges execution gap &  generating a machine language   programming.@c) Interpreter bridges specification gap @d) Interpreter bridges execution gap@1
+17@ Interpreter domain encompasses@a) Application & PL domain@b) PL & Execution domain@c) Application & Execution domain@d) Application & Program generator@2
+18@ Which of the following statement NOT TRUE?@a) Problem oriented languages have very large execution gap@b) Problem oriented languages have very small execution gap@c) Problem oriented languages have small specification gap@d) None of above@2
+19@ Procedure oriented language have ________@a) Large specification gap@b) Small specification gap@c) Large execution gap@d) None of above@1
+20@ Program generator domain introduce a new gap called _______@a) Execution gap@b) Program generator gap@c) Semantic gap@d) Specification gap@2
+21@ Program generator domain is between_________@a) Application & PL domain@b) PL & Execution domain@c) Application & Execution domain@d) Application & Program generator@1
+22@ It more economical to develop _________@a) Problem oriented language@b) Procedure oriented language@c)  Program generator@d) None of above@3
+23@ Analysis of source program consists of________@a) Lexical & Semantic@b) Lexical & Semantic@c) Lexical, Syntax & Semantic@d) Lexical &  Memory allocation@3
+24@ Synthesis phase is concerned with the _________@a) Creation of data structure in the target program@b) Generation of target code@c) Both (a) & (b)@d) Analysis phase@3
+25@ Language processor consists of two distinct phases_________@a) Analysis & Synthesis@b) Lexical & semantic@c) Lexical & Analysis@d) Syntax & Semantic@1
+26@ The pass-I in language processing activity is called as__________@a) Back end@b) Intermediate state@c) Front end@d) Synthesis phase@3
+27@ Specification language of PL domain is_________@a) PL itself@b) Machine language@c) Assembly language@d) None of  above@2
+28@ Which of the following statement is TRUE?@a) Back end of language processor analyses the source program & construct IR@b) Front end of language processor analyses the source program & construct IR@c) Front end of language processor analyses source program & generate code@d) None of above@2
+29@ Which of the following statement is NOT TRUE?@a) IR should be easy to construct & analyse@b) Efficient algorithms must exist for construction & analyzing the IR@c) IR is difficult to construct@d) IR must be compact@3
+30@ The table contains information concerning all identifiers used in the Source Program@a) Data table@b) Syntax table@c) Structure table@d) Symbol table@4
+31@ Choose correct statement@a) The symbol table built during lexical analysis@b) The symbol table built during semantic analysis@c) The symbol table built during syntax analysis@d) None of above@1
+32@ Lexical analysis builds a descriptor called a_______, for each lexical unit@a) Class code@b) Number in class@c) Class code identifiers@d) Token@4
+33@ In lexical analysis token consists of_________@a) Class code@b) Number in class@c) Class code identifiers@d) Both (a) & (b)@4
+34@ Lexical analysis is the process of_________ the source program@a) Parsing@b) Memory allocation@c) Symbol table@d) Scanning@4
+35@ Syntax analysis is the process of _________@a) Parsing@b) Memory allocation@c) Symbol table@d) Scanning@1
+36@ Which of the following statement is TRUE?@a) Natural languages are formal languages@b) Formal languages are both natural & PL s@c) PLs are formal languages@d) None of above@3
+37@ Grammar is used for________@a) Generating valid string@b) Recognize valid string@c) Both (a) & (b)@d) None of above@3
+38@ Recursive rules are classified in to_________@a) Left recursive rule@b) Right recursive rule@c) Top down recursive rule@d) Both (a) & (b)@4
+39@ Type-0 grammar is known as________@a) Phase structure@b) Context free grammar@c) Context sensitive grammar@d) Liner grammar@1
+40@ Type-1 grammar is known as________@a) Phase structure@b) Context free grammar@c) Context sensitive grammar@d) Liner grammar@3
+41@ Type-3 grammar is known as________@a) Phase structure	@b) Context free grammar@c) Context sensitive grammar@d) Liner grammar@4
+42@ An Operator grammar is a grammar none of whose productions contains two or more  _________@a) Consecutive terminal in any RHS alternative@b) Consecutive terminal in LHS & RHS alternative@c) Consecutive non terminal in any RHS alternative@d) None of above@4
+43@ Which of the following statement is NOT TRUE?@a) Binding time is the time at which a binding is performed@b) Language implementation time is the time when language translator is designed@c) Binding is association of one program with another program@d) None of above@3
+44@ Static binding is the binding performed__________@a) After the execution of program has begun@b) After analysis phase@c) Before the execution of program begin@d) None of above@3
+45@ Dynamic binding is a binding _________@a) After the execution of program has begun@b) After output of analysis phase@c) Before the execution of program begin@d) None of above@1
+46@ LPDTs requires ___________@a) Specification of grammar of language L@b) Specification of semantic actions to be performed in analysis phase@c) Source program@d) Both (a) & (b)@4
+47@ LPDTs generates program that performs__________of source program@ a) Lexical, syntax, Semantic@b) Lexical & Semantic@c) Lexical & Syntax@d) Lexical &  Memory allocation@1
+48@ CFG is recognized by@a) Push-down automata@b) 2-way linear bounded automata@c) Both a & b@d) None of above@1
+49@ Which is not true about syntax & semantic parts of computer language?@a) Syntax is generally checked by the programmer@b)  Semantics is the responsibility of the programmer@c) Semantics is checked mechanically by computer@d) Both a & c above@2
+50@ Context sensitive grammar can be recognized by @a) Push-down automata@b) 2-way linear bounded automata@c) Three address code@d) All of these@2
+51@ The most general phase structured grammar is@a) Regular grammar@b) Context free grammar@c) Context sensitive @d) None of above@4
+52@ Interpreter is program that@a)Places program into memory & prepare for execution@b)Automates the translation of assembly language into machine language@c)Access program written in high level language & produces an object program@d)Prepares to execute a source program as if it were machine language@1
+53@ Which of the following is a type-I grammar@a)	A ::= π@b)	α ::= β@c)	A ::= Bt | t@d)	αAβ ::= α π β@4
+54@ Which one of the following is a operator grammar@a)	A ::= CD + E |a@b)	A ::= CAD| C+D@c)	A ::= C + D | C * D | a@d)	None of above@3
+55@ Which one is type-3 grammar@a)	A ::= π@b)	α ::= β@c)	A ::= Bt | t@d)	αAβ ::= α π β@3
+56@ Whether a given pattern constitute of token or not depends on the@a)	Source language@b)Target language@c)Compiler@d)All of these@1
+57@ ---------------are generated as output of scanning@a)	Parse tree@b)	Tokens@c)	Sequence actions@d)       Intermediate representation@2
+58@ Which language processor bridges the execution gap but is not language translator@e)	Preprocessor@f)	Migrator@g)	Interpreter@h)	Compiler@1
+59@ Popular model for program execution are@e)	Translation@f)	Interpretation@g)	Translation & Interpretation@h)	None of above@3
+60@ --------------are generated as output of hierarchical analysis@e)	Tokens@f)	Sequence of actions@g)	Parse tree@h)	(a) & (c) both@3
+61@ The derivation means@e)	Generation of valid string@f)	Recognition of valid string@g)	Generation of valid string & Recognition of valid string@h)	None of above@1
+62@ The reduction means@e)	Generation of valid string@f)	Recognition of valid string@g)	Generation of valid string & Recognition of valid string@h)	None of above@2
+63@ Which of the following is a type-0 grammar@e)	A ::= π@f)	α ::= β@g)	A ::= Bt | t@h)	αAβ ::= α π β@2
+64@ Which of the following is a type-2 grammar@e)	A ::= π@f)	α ::= β@g)	A ::= Bt | t@h)	αAβ ::= α π β@1
+65@ ----------------- is the time when a language translator is designed@e)	Language implementation of language@f)	Language definition of language@g)Compilation time program@h)Execution init time of procedure@1
+66@ ------------------specifies binding time for the attribute at various entities of a program written in L@e)	Language implementation of language@f)	Language definition of language@g)Compilation time program@h)Execution init time of procedure@2

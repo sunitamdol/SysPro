@@ -1,0 +1,29 @@
+1@ Which of the following is not the function of Loader?@a) Translation@b) Relocation@c) Allocation@d) Linking @1
+2@ Which of the following type of loader have assembler in memory? @a) Absolute@b) Compile & Go@c) Relocation Loader@d) Direct Linking Loader@2
+3@ In Absolute Loader allocation is done by@a) Programmer@b) Linker@c) Assembler@d) Loader@1
+4@ In Absolute Loader relocation is done by@a) Programmer@b) Linker@c) Assembler@d) Loader@1
+5@ In Absolute Loader, linking is done by@a) Programmer@b) Linker@c) Assembler@d) Loader@3
+6@ In Absolute Loader, loading is done by  @a)Programmer@b)Linker@c)Assembler@d)Loader @4
+7@ Which type of loader consist of Transfer Vector @a) Absolute@b) Compile & Go@c) Relocation Loader@d) Direct Linking Loader@3
+8@ The output of Relocating Assembler using BSS scheme is@a)Object Program@b)Information about all Other Program it References@c) Both a & b@d) Only a@3
+9@ In which type of loader Relocation Bits are used @a)Absolute@b)Compile & Go@c) Relocation Loader@d)Direct Linking Loader @3
+10@ In Relocating Loader, ______  are used to solve the problem of relocation@a) Transfer Vector@b) Program Length Information@c) Relocation Bit@d) None Of The Above@3
+11@ ______ is used to solve the problem of linking in Relocating Loader@a) Transfer Vector@b) Program Length Information@c) Relocation Bit	@d) None Of The Above @1
+12@ ______is used to solve problem of allocation in Relocating Loader@a) Transfer Vector@b) Program Length Information@c) Relocation Bit@d) None of The Above@2
+13@ In Direct Linking   Loader, which of the following information must be given by the loader?@a) The length of the segment & machine code translation of source program & relative address assigned@b) The list of the symbols in segment that may be referenced by the other segment & their relative location within the segment@c) List of Symbols not defined in the segment but reference in the segment & information as to where address constants are located in the segment@d) All of the Above@4
+14@ Which of the following Pseudo code is used to indicate to the Assembler which General Register to use as a Base@a) BALR@b) USING@c) BR@d) None@2
+15@ Which of the Following Instruction is used to load a register with next address and branch to the address in second field?@a) BALR@b) USING@c) BR@d) None@1
+16@ In Direct Linking Loader, the Assembler produces @a) ESD & TXT card@b) RLD card@c) END@d) All of the Above @4
+17@ ESD cards contain information about @a) All symbols that are defined in this program that may be reference elsewhere & all symbols reference in this program but defined elsewhere.@b) Actual Object code translated version of source program@c) Those Location in the program whose content depend on the address at which program is placed @d) End of Object Deck @1
+18@ RLD cards contain information about @a) All symbols that are defined in this program that may be reference elsewhere & all symbols reference in this program but defined elsewhere.@b) Actual Object code translated version of source program@c) Those Location in the program whose content depend on the address at which program is placed @d) End of Object Deck @3
+19@ END cards indicates information about @a) All symbols that are defined in this program that may be reference elsewhere & all symbols reference in this program but defined elsewhere.@b) Actual Object code translated version of source program@c) Those Location In the Program Whose Content depend on the address at which program is placed @d) End of Object Deck @4
+20@ TXT cards contain information about @a) All symbols that are defined in this program that may be reference elsewhere & all symbols reference in this program but defined elsewhere.@b) Actual Object code translated version of source program@c) Those Location in the program whose content depend on the address at which program is placed @d) End of Object Deck @2
+21@ RLD card contains which of the following information@a)The location of each constant that needs to be changed due to relocation@b)By what it has to be changed@c)The operation to be performed@d)All of above @4
+22@ Which part of system software must reside in main memory under all circumstances? @a) Text editor@b)Assembler@c)Linker@d)Loader@4
+23@ Relocation bits used by relocating loader are specified by@a)Relocating loader itself@b)Linker@c)Assembler@d)Microprocessor@3
+24@ Direct linking loader is example of@a)Absolute loader@b)Relocating loader@c)Compile and go loader@d)Dynamic loader@2
+25@ In absolute loading scheme which loader function is accomplished by assembler? @a)Relocation@b)Allocation@c)Linking@d)Loading@3
+26@ In direct linking loader which card is not related with object program?@a)ESD@b)RLD@c)BSS@d)TXT@3
+27@ Binary symbolic subroutine loader is example of   @a)Absolute loader@b) Compile and go loaders@c)Relocating loaders @d)Direct linking loaders@3
+28@ In loaders, location and length of each address constant is maintained by@a)ESD@b) TXT@c) RLD@d)END@1
+29@ Address assigned by the loader to symbols is called@a)Load origin@b)Load time address@c)Linked origin@d)Link time address@2

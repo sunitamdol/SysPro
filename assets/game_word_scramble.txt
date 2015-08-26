@@ -1,0 +1,11 @@
+assembler
+macro
+compiler
+linker
+loader
+interpreter
+optimization
+synthesis
+grammer
+parser
+ambiguity

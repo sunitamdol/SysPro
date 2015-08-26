@@ -1,0 +1,38 @@
+1@An ideal compiler should_________ @a)Detect error@b)Detect and repair error @c)Detect, repair and correct error@d)None of these@3
+2@Compiler bridges semantic gap between which domains_________ @a)Application and execution@b)Application and PL@c)PL and execution@d) None of these@3
+3@An optimizing compiler_________ @a)Is optimized to occupy less space@b)Is optimized to reduce execution time @c)Optimizes the code@d)None of these@2
+4@A basic block can be analyzed by_________ @a)a  DAG@b)a graph which may involve cycles@c)flow graph@d)None of these@3
+5@The register descriptor has the fields_________ @a)Name@b)Addressability@c)Address of CPU register of memory word@d)(b) and (c) both@3
+6@The _______________of a language is the collection of language features for altering the flow of control during the execution of the program@a) Control structure@b)Control block@c)Control sequence@d)Control table@1
+7@Code optimization aims at improving  _______________@a)Execution efficiency of a program@b)Storage capacity of a program@c)(a) and (b) @d) None of these @1
+8@The optimization techniques are independent of  _______________@a)Target machine@b)PL @c)Both a and b@d)None of these @3
+9@The transformed IR (intermediate representation) is input to ____________ of optimizing compiler@a)Front end@b)Back end @c)Both (a) and (b)@d)None of these @2
+10@Optimizing transformations are classified into____________ of optimizing compiler@a)Local transformation@b)Global Transformation@c) Both(a) and (b)@d)None of these@3
+11@Which of the following is/are optimizing transformation(s) commonly used in compilers?____________ @a)Compile time evaluation and Elimination of common sub expressions@b)Frequency reduction  and Strength reduction@c)Dead code elimination@d) All of the above @4
+12@A data type is the specification of____________ @a)Legal values for variables of the type@b)Legal operations on the legal values of the type@c)Both (a) and (b)@d)None of the above @3
+13@Semantics of a data type require a/an _______ to ensure that variables of a type are assigned or manipulated only through legal operations@a) Compiler@b)Interpreter@c)Assembler@d) Linker@1
+14@Generation of type specific code achieves _______ @a)Implementation of second half of a type’s defiition@b)Execution efficiency@c) Both (a) and (b)@d)None of these@3
+15@When an operator is reduced by parse, which function is called?_______ @a)gencode@b)codegen@c) (a) and (b)@d)None of these@2
+16@In most languages, scope of a data item is restricted to the ______in which the data item is declared@a)Program block@b)Control structure@c) Memory@d)None of these@1
+17@PL feature(s) which contribute(s) to semantic gap between PL and execution domain is/are:______@a)Data types and Data Structures@b)Scope Rules@c)Control Structure@d)All of the above@4
+18@The major issue(s) in code generation for expressions is/are______@a)Determination of evaluation order for operators in an expression@b) Selection of instructions to be used in the target code@c)Use of registers and handling of partial results@d)All of the above@4
+19@The choice of an instruction to be used in the target code depends on______@a)Type of each operand@b)Length of each operand@c)Addressability of each operand@d)All of the above@4
+20@____ is used to maintain the type, length and addressability information for each operand@a)Operand descriptor@b)Operand table@c)A@d)All of the above@4
+21@A part of a program where the entity is accessible is_____ of the program@a)Limit @b)Scope@c)Age@d)Period@3
+22@An operand descriptor has following field(s):______@a)Attributes@b)Addressability@c)Both (a) and (b)@d)None of the above@1
+23@Representation of an elementary operation in the form of a pseudo-machine instruction is______@a)A triple@b)A quadruple@c)An expression tree@d)All of the above@1
+24@When optimization is applied over small segment of program consisting of a few source statements, it is called@a)Local transformation@b)Global transformation@c)Body transformation@d)None of the above@1
+25@If (bi, bj) ? E(set of directed edges), bi is _________________ of bj and bj is _____________ of bi@a.Predecessor,  successor@b)Ancestor, descendant@c)Dominator, post-dominator@d)None of the above@3
+26@Use of algebraic equivalence@a)Improves effectiveness of optimization@b)Increases cost of optimization@c)Both (a) and (b)@d)None of the above@2
+27@The code which can be eliminated from the program without affecting results is called@a)Common sub expression@b)Dead code@c)Both (a) and (b)@d)None of the above@2
+28@The data flow concept live variable corresponds to which optimization?@a)Common sub expression elimination@b)Dead code elimination@c)Constant and variable propagation@d)None of the above @2
+29@Which optimization requires more analysis effort to establish feasibility of optimization@a)Local@b)Global@c)Both (a) and (b)@d)None @2
+30@A program flow graph for a program P is ______ graph@a)Directed@b)Undirected@c)Bidirectional@d)None of the above@1
+31@A sequence of edges such that the destination node of one edge is the source node of the following node is called@a)Path@b)Scope@c)Range@d)None of the above@1
+32@If a path exists from bi to bj, bi is ___________________of bj and bj is ___________________of bi@a)Predecessor, successor@b)Ancestor, descendant@c)Dominator, Post-dominator@d)None of the above @2
+33@If every path from n0 (Start node) to bj passes through block bi, block bi is__________ of block bj@a)Predecessor@b)Ancestor@c)Dominator@d)Post dominator@3
+34@If every path from bj to an exit node passes through bi, bi is __________of bj@a)Ancestor@b)Successor@c)Post Dominator@d)Dominator@3
+35@When optimization is applied over larger segments consisting of loops or fun bodies, it is called@a)Local transformation@b)Global transformation@c)Body transformation@d)None of the above@2
+36@The data flow concept Reaching definition corresponds to which optimization?@a)Common sub expression elimination@b)Dead code elimination@c)Constant and variable propagation@d)None of the above@3
+37@Which information is used to decide whether an optimizing transformation can be applied to a segment of code in the program?@a)Data flow information@b)Control flow informatio@c)Concept information@d)None of the above@1
+38@Complier can diagnose@a)Grammatical errors only@b)Logical errors only@c)Grammatical and logical errors@d)Neither grammatical nor logical@2

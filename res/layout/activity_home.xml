@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/front"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnLP"
+            style="@style/btnStyle"
+            android:text="Language Processor" />
+
+        <Button
+            android:id="@+id/btnAss"
+            style="@style/btnStyle"
+            
+            android:text="Assembler" />
+
+        <Button
+            android:id="@+id/btnMac"
+            style="@style/btnStyle"
+            android:text="Macro" />
+
+        <Button
+            android:id="@+id/btnCom"
+            style="@style/btnStyle"
+            android:text="Compiler" />
+
+        <Button
+            android:id="@+id/btnLin"
+            style="@style/btnStyle"
+            android:text="Linker" />
+
+        <Button
+            android:id="@+id/btnloa"
+            style="@style/btnStyle"
+            android:text="Loader" />
+    <Button
+            android:id="@+id/btnHel"
+            style="@style/btnStyle"
+            android:text="Help" />
+
+        <Button
+            android:id="@+id/btnExi"
+            style="@style/btnStyle"
+            android:text="Exit" />
+    </LinearLayout>
+
+</ScrollView>

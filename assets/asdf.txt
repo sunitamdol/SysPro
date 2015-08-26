@@ -1,0 +1,47 @@
+1@ Series of statements explaining how data is to be processed is called _______@a) Assembler@b) machine@c) Pascal@d) program@2
+2@ Which of the following is true about pseudo code?@a) A machine language@b) Assembly language@c) High level language@d) None of these@2
+3@ In two pass assembler the object code generation is done during the ______@a) Second pass@b) First pass@c) Zero pass@d) None of these@1
+4@ Which of the following program converts assembly language program to object programs?@a) Assembler@b) compiler@c) Macro processor@d) linker@1
+5@ Symbolic references in source statement are not processed at all during Pass-I in _______@a) Variant-I@b) Variant-II@c) Variant-III@d) All above@2
+6@ Which directive sets the LC with the address specified by address specification?@a) START@b) END@c) ORIGIN@d) Both (a) and (c)@4
+7@ Which registers are used as base registers in Intel 8088?@a) BP and SP@b) BP and SI@c) BP and BX@d) BX and AX@3
+8@ A/An ______ instructs the assembler to perform certain actions during the assembly of program.@a) Statement format@b) Symbolic operands@c) Assembler directive@d) Data declaration@3
+9@ Which of the following is/are assembler directive(s)?@a) STOP@b) READ@c) EQU@d) (a) and (b) both@3
+10@ All errors are reported against the erroneous statement itself, if error reports are produced in________@a)Pass-I@b)Pass-II@c)(a) and (b) both@d)Not possible in both@2
+11@ Which of the following is a 8-bit data register in Intel 8088 processor?@a)AX@b)BL@c)DS@d)SH@2
+12@ A/An ________ statement indicates an action to be performed during the execution of the assembled program.@a) Declarative@b) Imperative@c) Assembler directives@d) All of above@2
+13@ Which of the following is not a assembler directive?@a) END@b) PRINT@c) ORIGIN@d) None of above@2
+14@ Intermediate code for "ORIGIN" is@a)(IS,03) @b)(DL,02)@c)(AD,03)@d)(AD,04)@3
+15@To implement the memory allocation, a data structure called ______ is used in analysis phase of assembly language.@a) Instruction counter@b) Location counter@c) DS @d) DC@2
+16@ Pass-II of two pass assembler perform@a) Synthesis@b) Analysis phase@c) Synthesis & analysis@d) None of above@1
+17@ In which case it is not necessary to have a representation of DS statement@a)  IC contains address field@b) IC does not contains address field@c) There is no DS statement@d) None of the above@1
+18@ Pass-I of two pass assembler perform@a) Synthesis @b) Analysis phase@c) Synthesis & analysis@d) None of above@2
+19@ By default all the literals are stored @a) At the end of program@b) Start of program@c) After LTORG@d) Middle of the program@1
+20@ By default all the literals are stored @a) At the end of program@b) Start of program@c) After LTORG@d) Middle of the program@1
+21@ Literal pool contains all the literals used in program since@a) Start of program@b) Last LTORG statement@c) Both a) & b)@d) None of above@3
+22@ Which of the table(s) is/are used by both pass@a) SYMTAB@b) LITTAB@c) OPTAB@d) POOLTAB@3
+23@ Listing & error reporting should be done in@a) Pass-I@b) Pass-II@c) Pass-I & Pass-II@d) None of the above@2
+24@ For efficiency reason, which table should remain in main memory?@a) SYMTAB@b) LITTAB@c) OPTAB@d) POOLTAB@1
+25@ To implement memory allocation a data structure called --------------- is introduced.@a)Linked List@b)Record Base Pointer@c) Location Counter@d) Address Counter@3
+26@ The LC processing is performed in   ---------------------.@a) Synthesis Phase @b) Analysis Phase@c) Both (a) & (b)@d) None Of These@2
+27@ The problem of forward references is tackled using a process called ------------ in single phase assembler.@a) Backtracking @b) Synchronization@c) Aging@d) Back patching@4
+28@ The address of forward referenced symbol is put into ---------when its definition is encountered in Single Pass Assembler.@a)OPTAB @b)SYMTAB@c) TII Table of incomplete Information@d) Mnemonic Table@2
+29@ Which of the following is wrong statement in task performed by two pass assembler?@a)Perform LC processing@b)Construct intermediate representation@c)Separate the symbol, mnemonic opcode & operand field@d)Build mnemonic table@4
+30@ Which of the following is advanced assembler directives?@a) START@b) EQU@c) STOP @d) Both (a) & (c)@2
+31@ Syntax of ORIGIN is @a) ORIGIN <constant>@b) ORIGIN <operand_spec>@c) <symbol> ORIGIN <operand_spec>@d) None of above@4
+32@ Variant I &variant II of intermediate code differ in@a) Address Fields@b) Information contained in operand fields@c) Information contained in address specification@d) Information contained in operand specification@2
+33@ In a two pass assembler, the pseudo code EQU is to be evaluated during:@a) Pass-I@b) Pass-II@c) Not evaluated by assembler@d) None of the above@1
+34@ Efficient use of addressing modes @a) Speeds up execution@b) Reduces number of instructions@c) Reduces size of instruction@d) All of the above@4
+35@ Which of the following addressing mode supports indexing?@a)Relative@b)Direct@c) Immediate@d)Both (a) and (b)@4
+36@ Which of the following is an analytic operator?@a)SIZE@b)PTR@c)THIS@d) None of the above@1
+37@ A________statement indicates that segment register contains the base address of segment@a)START@b)ASSUME@c)ORG@d)Both (a) and (c)@2
+38@ Forward references Table contains following entries:@a)Address of the instruction whose operand field contains the FR@b)Symbol to which FR is made@c)Number of the SRTAB to be used for assembling the reference@d) All of the above@4
+39@A___________is created while processing ‘assume’ statement@a)OPTAB@b)FRT@c)SRTAB@d)CRT@3
+40@_______ and _______ delimit the body of procedure.@a)NEAR and FAR@b)PROC and ENDP@c)START and END@d) All of the above@2
+41@ Which addressing mode the following instruction represents MOV sum 56H[SI][BX]@a)Based & Indexed@b) Immediate@c)Based@d)Indexed@2
+42@ Pass-II of assembler _______@a) Assembles instruction and generates code@b) Perform processing of assembler directives not done during Pass-I@c) Write the object program and assembly listing@d) All of these@4
+43@ Symbol table can be used for _______@a) Checking type compatibility@b) Suppressing duplication of error massages@c) Storage allocation@d) All of these@4
+44@ Which of the following is true about pseudo code?@a) A machine language@b) Assembly language@c) High level language@d) None of these@2
+45@ Which of the following are features of language programming@a) Mnemonic operation codes@b) Symbolic operands@c) Data declarations@d) All of the above@4
+46@ Assembly program contains which kind of statement from below@a) Control structure statement@b) Loop statement@c) Declaration statement@d) None of above@3
+47@ A _____ is an operand with the syntax='<value>'@a) Constant@b) Variable@c) Literal@d) Either (a) or (c)@3

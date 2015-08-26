@@ -1,0 +1,10 @@
+compilation
+memory
+array
+descriptor
+address
+expression
+optimization
+local
+available
+live

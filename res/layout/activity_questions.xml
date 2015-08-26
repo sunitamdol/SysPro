@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/front"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#D3D3D3"
+        android:text="TextView" />
+
+    <RadioGroup
+        android:id="@+id/studentans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv1"
+        android:layout_marginTop="32dp" >
+
+        <RadioButton
+            android:id="@+id/op1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#D3D3D3"
+            android:onClick="store"
+            android:text="option1" />
+
+        <RadioButton
+            android:id="@+id/op2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#D3D3D3"
+            android:onClick="store"
+            android:text="option2" />
+
+        <RadioButton
+            android:id="@+id/op3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#D3D3D3"
+            android:onClick="store"
+            android:text="option3" />
+
+        <RadioButton
+            android:id="@+id/op4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#D3D3D3"
+            android:onClick="store"
+            android:text="option4" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/btnprev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onclick"
+            android:text="Previous" />
+
+        <Button
+            android:id="@+id/btnnext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            
+            android:onClick="onclick"
+            android:text="Next" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnfinish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onclick"
+         android:text="Finish" />
+
+    <TextView
+        android:id="@+id/ansres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#D3D3D3"
+        android:text="" />
+    
+    
+    <TextView
+        android:id="@+id/crc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#D3D3D3"
+        android:text="" />
+
+</LinearLayout>

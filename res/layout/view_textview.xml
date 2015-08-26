@@ -1,0 +1,8 @@
+<EditText
+    android:id="@+id/txtChar"
+    android:layout_width="wrap_content"
+    android:gravity="center"
+    android:textSize="10sp"
+    android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android">
+    
+</EditText>

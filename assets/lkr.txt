@@ -1,0 +1,20 @@
+1@ Storage mapping is done____@a)Operating System@b) Compiler@c) Linker@d) Loader@4
+2@ Address assigned by the loader to symbol is called    @a) Load origin@b) Load time address@c) Translated origin@d) Translated time origin@2
+3@ The linker               @a) is same as the loader    @b)is required to create load module@c) uses source code as input@d)is always used before program are executed@4
+4@ Resolution of externally defined symbols is done by                    @a) Linker@b) Loader@c) Compiler@d) Assembler@1
+5@ A system program that set up an executable program in main memory ready for execution is                @a) Assembler@b)Linker@c) Loader@d)Text editor@3
+6@ If translated origin and linked origin are different , then relocation is performed by	               @a) Linker@b) Loader@c) Translator@d) All of these@1
+7@ File with .EXE extension contains              @a) Non relocated object program@b)Relocated program@c) Linked program@d) None of these@3
+8@ Overlays are used to         @a) Reduce execution time@b) Reduce code@c) Reduce memory requirement@d)Reduce linking requirement@3
+9@ If load origin and link origin are different then relocation is performed by                  @a) Linker@b) Loader@c)Translator@d)Both a and b@2
+10@ Binding of external references to link time address is called              @a) Translation@b) Loading@c) Linking@d) None of these@3
+11@ Relocation table is generated in             @a) Loader@b) Binary program@c) Object module@d) Translator@3
+12@Which of the following is input to the linker           @a) Object module@b) Source program@c) Intermediate representation@d) Expression tree & quadruples@3
+13@The process of resolving an external reference by including the object module contains its definition from library file is called        @a) linking@b) auto linking@c) loading@d)none of these@2
+14@An overlay is a part of a program which has the same ______ as some other part(s) of the program@a) translated origin@b)linked origin@c)load origin@d)None of these@3
+15@The object module of a program contains all the information necessary to _______ and link the program with other programs.   @a) Loader@b) relocate@c) translate@d) none of these@2
+16@The origin of a program may have to be changed by	    @a) Linker@b)Loader@c)Both a and b@d)Either a or b@4
+17@The overlay structure of an object program is specified in the ______ command    @a) Loader@b)Linker@c)Translation@d)None of these@2
+18@l_symb = ______ + d_symb@a) d_symb@b)	l_symb@c) relocation_factor @d) l_origin@4
+19@LINKTAB entry contains@a) Symbol, Type & Translated Address@b) Symbol & Type@c)	Symbol@d) Symbol & Translated address@1
+20@Object module consist of@a) Header, Program, Relocation Table & Linking Table@b)	Header & Relocation Table@c) Relocation Table & Linking Table@d) Program & Relocation Table@1

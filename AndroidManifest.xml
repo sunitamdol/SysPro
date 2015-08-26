@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.witsolapur.sysproapp"
+    android:installLocation="auto"
+    android:versionCode="125"
+    android:versionName="2.3.4" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />       
+
+ <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+      <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity
+            android:name="in.witsolapur.sysproapp.SysPro"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:theme="@style/themeBase" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    
+        <activity android:name="in.witsolapur.sysproapp.HomeActivity" />
+        <activity android:name="in.witsolapur.sysproapp.FeatureActivity" />
+        <activity android:name="in.witsolapur.sysproapp.NotesActivity" />
+        <activity android:name="in.witsolapur.sysproapp.PptActivity" />
+        <activity android:name="in.witsolapur.sysproapp.PptActivity1" />
+        <activity android:name="in.witsolapur.sysproapp.MacroActivity1" />
+        <activity android:name="in.witsolapur.sysproapp.QuizActivity" />
+        <activity android:name="in.witsolapur.sysproapp.QbankActivity" />
+        <activity android:name="in.witsolapur.sysproapp.GamesActivity" />
+        <activity android:name="in.witsolapur.sysproapp.Game3ActivityCompiler" 
+            android:screenOrientation="landscape"/>
+        <activity android:name="in.witsolapur.sysproapp.Game3ActivityLoader"
+             android:screenOrientation="landscape"/>
+        <activity android:name="in.witsolapur.sysproapp.WordmatchAssembler"
+             android:screenOrientation="landscape"/>
+        <activity android:name="in.witsolapur.sysproapp.WordmatchCompiler"
+              android:screenOrientation="landscape"/>
+              
+        <activity android:name="in.witsolapur.sysproapp.WordmatchLanguageProcessor"
+              android:screenOrientation="landscape"/>
+	    <activity android:name="in.witsolapur.sysproapp.WordmatchLinker"
+              android:screenOrientation="landscape"/>
+        <activity android:name="in.witsolapur.sysproapp.WordmatchLoader"
+               android:screenOrientation="landscape"/>
+        <activity android:name="in.witsolapur.sysproapp.WordmatchMacro"
+                  android:screenOrientation="landscape"/>
+        <activity android:name="in.witsolapur.sysproapp.WordScrambleActivity"/>
+        <activity android:name="in.witsolapur.sysproapp.Game3ActivityLinker"
+               android:screenOrientation="landscape"/>
+        <activity android:name="in.witsolapur.sysproapp.Game3ActivityLanguageProcessor"
+              android:screenOrientation="landscape"/>
+        <activity android:name="in.witsolapur.sysproapp.Game3Activity"
+            android:screenOrientation="landscape"/>
+        <activity android:name="in.witsolapur.sysproapp.Game3ActivityMacro"
+            android:screenOrientation="landscape"/>
+       
+        <activity android:name="in.witsolapur.sysproapp.HandsOnActivity" />
+        <activity android:name="in.witsolapur.sysproapp.HelpActivity" />
+        <activity android:name="in.witsolapur.sysproapp.ExitActivity" />
+        <activity android:name="in.witsolapur.sysproapp.FinishActivity" />
+        <activity
+            android:name="in.witsolapur.sysproapp.QuestionsActivity"
+            android:label="@string/title_activity_questions" >
+        </activity>
+        <activity
+            android:name="in.witsolapur.wordsearch.view.NavigationActivity"
+            android:label="@string/title_activity_navigation" >
+        </activity>
+        <activity
+            android:name="in.witsolapur.wordsearch.view.PPTListActivity"
+            android:label="@string/title_activity_pptlist" >
+        </activity>
+        <activity
+            android:name="in.witsolapur.sysproapp.MacroActivity"
+            android:label="@string/title_activity_macro" >
+        </activity>
+         
+    </application>
+
+    <uses-sdk
+        android:minSdkVersion="3"
+        android:targetSdkVersion="4" />
+
+</manifest>

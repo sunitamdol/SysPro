@@ -1,0 +1,511 @@
+<ScrollView  
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sv1"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    > 
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="2100dp"
+        tools:context=".MainActivity" >
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:layout_above="@+id/button1"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="18dp"
+            android:layout_toRightOf="@+id/editText1"
+            android:text="Macro" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView1"
+            android:text="a.Exist across all macro calls situated in a program and can be used in any macro which has a declaration for it" />
+
+        <Button
+            android:id="@+id/button1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView2"
+            android:text="OK" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button1"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_alignTop="@+id/editText2"
+            android:text="Macro prototype statement" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/button1"
+            android:text="b. Used to perform auxilliary function during macro expansion" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_below="@+id/button2"
+            android:text="c.Parameter is written as \u0026formal parameter" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button3"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_alignTop="@+id/editText4"
+            android:text="Preprocessor statement" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView7"
+            android:layout_alignBottom="@+id/textView7"
+            android:layout_toRightOf="@+id/textView7"
+            android:text="d. AIF, AGO and ANOP" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button4"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_below="@+id/button4"
+            android:text="Lexical expansion" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView9"
+            android:layout_alignBottom="@+id/textView9"
+            android:layout_alignLeft="@+id/textView8"
+            android:text="e. Declares the name of macro and the name and its kind of parameter" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button5"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@+id/textView9"
+            android:layout_alignTop="@+id/editText6"
+            android:text="Semantic expansion" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/textView11"
+            android:text="OK" />
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button6"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@+id/textView11"
+            android:layout_alignTop="@+id/editText7"
+            android:text="Expansion time control flow" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/textView13"
+            android:text="OK" />
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button7"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@+id/textView13"
+            android:layout_alignTop="@+id/editText8"
+            android:text="Lexical substitution" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView15"
+            android:layout_alignBottom="@+id/textView15"
+            android:layout_alignLeft="@+id/textView14"
+            android:text="h.Generate an assembly statement from model statement" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/textView15"
+            android:text="OK" />
+
+        <EditText
+            android:id="@+id/editText9"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button8"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@+id/textView15"
+            android:layout_alignTop="@+id/editText9"
+            android:text="Positional formal parameter" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView17"
+            android:layout_alignBottom="@+id/textView17"
+            android:layout_alignLeft="@+id/textView16"
+            android:text="i. Alteration of flow of control during expansion" />
+
+        <EditText
+            android:id="@+id/editText10"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button9"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@+id/textView17"
+            android:layout_alignTop="@+id/editText10"
+            android:text="Keyword formal parameter" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView19"
+            android:layout_alignBottom="@+id/textView19"
+            android:layout_alignLeft="@+id/textView22"
+            android:text="j. A unit of specification for program generation through expansion" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView21"
+            android:text="OK" />
+
+        <EditText
+            android:id="@+id/editText12"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button11"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@+id/textView21"
+            android:layout_below="@+id/button11"
+            android:text="Expansion time statements" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView22"
+            android:layout_below="@+id/button11"
+            android:text="l. Statements from which assembly language statements may be generated during macro expension" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView23"
+            android:text="OK" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView11"
+            android:layout_alignBottom="@+id/textView11"
+            android:layout_toRightOf="@+id/textView11"
+            android:text="f. The order in which the model statements are visited during macro expansion" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button6"
+            android:layout_toRightOf="@+id/textView13"
+            android:text="g. is created for use only during particular macro call" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/textView17"
+            android:text="OK" />
+
+        <EditText
+            android:id="@+id/editText13"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button12"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@+id/textView23"
+            android:layout_alignTop="@+id/editText13"
+            android:text="Local EV" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView24"
+            android:layout_below="@+id/button12"
+            android:text="m. Replacement of a character string by another character string during program generation" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView25"
+            android:text="OK" />
+
+        <EditText
+            android:id="@+id/editText14"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button13"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@+id/textView25"
+            android:layout_alignTop="@+id/editText14"
+            android:text="Global EV" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView26"
+            android:layout_below="@+id/button13"
+            android:text="n. To generate many similar statements during the expansion of a macro" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView27"
+            android:text="OK" />
+
+        <EditText
+            android:id="@+id/editText15"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button14"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@+id/textView27"
+            android:layout_below="@+id/button14"
+            android:text="Expansion time loop" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView29"
+            android:layout_alignBottom="@+id/textView29"
+            android:layout_alignLeft="@+id/textView28"
+            android:text="o. Generation of instructiond tailored to the requirements of a specific usage" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/textView9"
+            android:text="OK" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView29"
+            android:text="OK" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView19"
+            android:text="OK" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/button1"
+            android:layout_below="@+id/textView3"
+            android:text="OK" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:layout_alignBaseline="@+id/textView6"
+            android:layout_alignBottom="@+id/textView6"
+            android:layout_toLeftOf="@+id/textView6"
+            android:text="Model statement" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/button2"
+            android:layout_toLeftOf="@+id/textView1"
+            android:ems="10" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/textView5"
+            android:layout_marginTop="38dp"
+            android:text="OK" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/button10"
+            android:layout_toRightOf="@+id/textView19"
+            android:text="k. Parameter is written as \u0026= " />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="170dp"
+            android:layout_height="130dp"
+            android:layout_below="@+id/button10"
+            android:layout_toRightOf="@+id/editText11"
+            android:text="Expansion time sequencing symbol and expension time statements" />
+
+        <EditText
+            android:id="@+id/editText11"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignTop="@+id/textView21"
+            android:layout_toLeftOf="@+id/textView1"
+            android:ems="10" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/textView7"
+            android:layout_alignLeft="@+id/button3"
+            android:text="OK" />
+        
+</RelativeLayout>
+</ScrollView>

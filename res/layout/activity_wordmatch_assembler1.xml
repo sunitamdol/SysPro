@@ -1,0 +1,480 @@
+<ScrollView  
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sv1"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    > 
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1500dp"
+        tools:context=".MainActivity" >
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="18dp"
+            android:layout_toRightOf="@+id/editText1"
+            android:text="Imperative statement" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView1"
+            android:text="a.Backpatching" />
+             
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button1"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_alignTop="@+id/editText2"
+            android:text="Declaration statement" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/button1"
+            android:text="b. Symbol table" />
+            />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button2"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignTop="@+id/editText3"
+            android:text="Assembler directives" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_below="@+id/button2"
+            android:text="c. ORIGIN,EQU,LTORG" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/textView5"
+            android:onClick="onclick"
+            android:text="OK" />
+
+            
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button3"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_alignTop="@+id/editText4"
+            android:text="Analysis phase" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView7"
+            android:layout_alignBottom="@+id/textView7"
+            android:layout_toRightOf="@+id/textView7"
+            android:text="d. A table of machine opcode and related information" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button4"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_below="@+id/button4"
+            android:text="Synthesis phase" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView9"
+            android:layout_alignBottom="@+id/textView9"
+            android:layout_alignLeft="@+id/textView8"
+            android:text="e. Instruct the assembler to perform certain actions during assembly of the program" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button5"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:layout_alignLeft="@+id/textView9"
+            android:layout_alignTop="@+id/editText6"
+            android:text="Two pass translation"
+            android:onClick="onclick" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/textView11"
+            android:onClick="onClick"
+            android:text="OK" />
+
+           
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button6"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:layout_alignLeft="@+id/textView11"
+            android:layout_alignTop="@+id/editText7"
+            android:text="Single pass translation" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/textView13"
+            android:onClick="onClick"
+            android:text="OK" />
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button7"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:layout_alignLeft="@+id/textView13"
+            android:layout_alignTop="@+id/editText8"
+            android:text="Advanced assembler directives" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView15"
+            android:layout_alignBottom="@+id/textView15"
+            android:layout_alignLeft="@+id/textView14"
+            android:text="h. Intermediate code is less compact " />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/textView15"
+            android:onClick="onClick"
+            android:text="OK" />
+
+           
+
+        <EditText
+            android:id="@+id/editText9"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button8"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:layout_alignLeft="@+id/textView15"
+            android:layout_alignTop="@+id/editText9"
+            android:text="OPTAB" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView17"
+            android:layout_alignBottom="@+id/textView17"
+            android:layout_alignLeft="@+id/textView16"
+            android:text="i.Indicates an action to be performed during the execution of assembled program" />
+
+        <EditText
+            android:id="@+id/editText10"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button9"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:layout_alignLeft="@+id/textView17"
+            android:layout_alignTop="@+id/editText10"
+            android:text="SYMTAB" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView19"
+            android:layout_alignBottom="@+id/textView19"
+            android:layout_alignLeft="@+id/textView18"
+            android:text="j. Obtain address of memory operand from SYAMTAB" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/textView19"
+            android:onClick="onClick"
+            android:text="OK" />
+
+           
+
+        <EditText
+            android:id="@+id/editText11"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/button10"
+            android:ems="10" />
+
+        <EditText
+            android:id="@+id/editText12"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button11"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:layout_alignLeft="@+id/textView21"
+            android:layout_below="@+id/button11"
+            android:text="Variant-I" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView22"
+            android:layout_below="@+id/button11"
+            android:text="l.A table of literals used in the program" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView11"
+            android:layout_alignBottom="@+id/textView11"
+            android:layout_toRightOf="@+id/textView11"
+            android:text="f. Isolate the label, mnemonic opcode and oprand field of a statement " />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button6"
+            android:layout_toRightOf="@+id/textView13"
+            android:text="g. DS and DC" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/textView17"
+            android:onClick="onClick"
+            android:text="OK" />
+
+           
+
+        <EditText
+            android:id="@+id/editText13"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button12"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:layout_alignLeft="@+id/textView23"
+            android:layout_alignTop="@+id/editText13"
+            android:text="Variant-II" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView24"
+            android:layout_below="@+id/button12"
+            android:text="m. Handled forward reference problem easily" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/textView9"
+            android:onClick="onClick"
+            android:text="OK" />
+
+           
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/textView7"
+            android:onClick="onClick"
+            android:text="OK" />
+
+           
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/textView23"
+            android:onClick="onClick"
+            android:text="OK" />
+
+            />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/textView25"
+            android:onClick="onClick"
+            android:text="OK" />
+
+            />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/textView21"
+            android:onClick="onClick"
+            android:text="OK" />
+
+        <Button
+            android:id="@+id/button1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView1"
+            android:onClick="onclick"
+            android:text="OK" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/textView3"
+            android:layout_marginTop="16dp"
+            android:onClick="onclick"
+            android:text="OK" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/button10"
+            android:layout_toLeftOf="@+id/textView22"
+            android:text="LITTAB" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView21"
+            android:layout_alignBottom="@+id/textView21"
+            android:layout_alignLeft="@+id/textView20"
+            android:layout_alignParentRight="true"
+            android:text="k. Label, instruction and operand fields are completely processed " />
+
+            
+        
+</RelativeLayout>
+</ScrollView>

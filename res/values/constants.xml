@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- simple strings that are probably not nessasary to internationalize -->
+	<string name="prev">&lt;</string>
+	<string name="next">&gt;</string>
+
+	
+
+	
+	
+	<!-- size preference choices -->
+	<string-array name="sizes_list_labels">
+		<item>7x7</item>
+		<item>8x8</item>
+		<item>9x9</item>
+		<item>10x10</item>
+		<item>11x11</item>
+	</string-array>
+	<string-array name="sizes_list_values">
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+		<item>11</item>
+	</string-array>
+	<string name="SIZE_DEFAULT">10</string>
+
+	<!-- category preference choices -->
+	
+
+</resources>

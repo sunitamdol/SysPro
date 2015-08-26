@@ -1,0 +1,11 @@
+assembler
+mnemonic
+symbolic 
+imperative
+literals
+ORIGIN
+OPTAB
+LITTAB
+SYMTAB
+segment
+register
